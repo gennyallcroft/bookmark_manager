@@ -8,6 +8,9 @@
       <form action="/bookmarks/delete" method="get">
         <input type="submit" name=<%= bookmark.id %> value="Delete"/>
       </form>
+      <form action="/bookmarks/edit" method="get">
+        <input type="submit" name="e<%= bookmark.id %>" value="Edit">
+      </form>
     </a>
   </li>
   <% end %>

@@ -30,4 +30,21 @@ class WebBookmarkManager < Sinatra::Base
     BookmarkManager.delete(params.key("Delete"))
     redirect '/bookmarks'
   end
+
+  get '/bookmarks/edit' do
+    @bookmark_id = params.key("Edit").delete("e").to_i
+    @bookmark = BookmarkManager.find(@bookmark_id)
+    erb :edit
+  end
+
+  post '/bookmarks/:id' do
+    BookmarkManager.edit(id: params[:id], title: params[:title], url: params[:url])
+    redirect('/bookmarks')
+  end
+
+  # get '/display' do
+  #   erb :display
+  # end
+
+
 end
