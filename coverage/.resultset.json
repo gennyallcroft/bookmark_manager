@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/daniel/Makers/bookmark_manager/spec/features/add_new_bookmark_spec.rb": [
+      "/Users/student/Documents/projects/bookmark_manager/spec/features/add_new_bookmark_spec.rb": [
         1,
         1,
         1,
@@ -14,7 +14,7 @@
         null,
         null
       ],
-      "/Users/daniel/Makers/bookmark_manager/spec/features/bookmark_spec.rb": [
+      "/Users/student/Documents/projects/bookmark_manager/spec/features/bookmark_spec.rb": [
         null,
         null,
         1,
@@ -26,34 +26,7 @@
         null,
         null
       ],
-      "/Users/daniel/Makers/bookmark_manager/spec/features/delete_bookmark_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/daniel/Makers/bookmark_manager/spec/features/index_spec.rb": [
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/daniel/Makers/bookmark_manager/spec/features/update_bookmark_spec.rb": [
-        1,
-        1,
+      "/Users/student/Documents/projects/bookmark_manager/spec/features/delete_bookmark_spec.rb": [
         1,
         1,
         1,
@@ -67,7 +40,34 @@
         null,
         null
       ],
-      "/Users/daniel/Makers/bookmark_manager/spec/units/bookmark_manager_spec.rb": [
+      "/Users/student/Documents/projects/bookmark_manager/spec/features/index_spec.rb": [
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/student/Documents/projects/bookmark_manager/spec/features/update_bookmark_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/student/Documents/projects/bookmark_manager/spec/units/bookmark_manager_spec.rb": [
         null,
         null,
         1,
@@ -101,11 +101,39 @@
         1,
         1,
         null,
+        null,
+        null,
+        null
+      ],
+      "/Users/student/Documents/projects/bookmark_manager/spec/units/database_connection_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1563461927
+    "timestamp": 1563464317
   }
 }
