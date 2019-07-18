@@ -25,4 +25,9 @@ class WebBookmarkManager < Sinatra::Base
     BookmarkManager.create(url: params[:url], title: params[:title])
     redirect '/bookmarks'
   end
+
+  get '/bookmarks/delete' do
+    BookmarkManager.delete(params.key("Delete"))
+    redirect '/bookmarks'
+  end
 end

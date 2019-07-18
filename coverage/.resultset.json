@@ -26,6 +26,20 @@
         null,
         null
       ],
+      "/Users/student/Documents/projects/bookmark_manager/spec/features/delete_bookmark_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/student/Documents/projects/bookmark_manager/spec/features/index_spec.rb": [
         null,
         null,
@@ -76,6 +90,6 @@
         null
       ]
     },
-    "timestamp": 1563377874
+    "timestamp": 1563457761
   }
 }
